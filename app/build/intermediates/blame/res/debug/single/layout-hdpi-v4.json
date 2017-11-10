@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_activity_video_call.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_activity_video_call.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_activity_pick_contact_no_checkbox.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_activity_pick_contact_no_checkbox.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_context_menu_for_image.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_context_menu_for_image.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_activity_voice_call.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_activity_voice_call.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_activity_chat.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_activity_chat.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_row_add_group.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_row_add_group.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_recorder_activity.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_recorder_activity.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_contacts_header.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_contacts_header.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_row_group.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_row_group.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_image_grid_fragment.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_image_grid_fragment.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_context_menu_for_location.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_context_menu_for_location.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_context_menu_for_voice.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_context_menu_for_voice.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/main_tab_text_item.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/main_tab_text_item.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_choose_griditem.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_choose_griditem.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_widget_contact_item.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_widget_contact_item.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_context_menu_for_video.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_context_menu_for_video.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_chat_neterror_item.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_chat_neterror_item.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_search_bar_with_padding.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_search_bar_with_padding.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/activity_pick_at_user.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/activity_pick_at_user.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_row_invite_msg.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_row_invite_msg.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/layout-hdpi-v4/em_context_menu_for_text.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/layout-hdpi/em_context_menu_for_text.xml"
+    }
+]

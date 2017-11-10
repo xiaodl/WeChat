@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/raw/em_outgoing.ogg",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/raw/em_outgoing.ogg"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/raw/beep.ogg"
+    }
+]
