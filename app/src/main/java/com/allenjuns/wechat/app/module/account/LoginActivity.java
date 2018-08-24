@@ -11,7 +11,7 @@ import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.app.base.BaseActivity;
 import com.allenjuns.wechat.app.model.account.LoginCallback;
 import com.allenjuns.wechat.app.model.account.LoginModelImpl;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.utils.L;
 
 import butterknife.Bind;
@@ -66,14 +66,14 @@ public class LoginActivity extends BaseActivity {
     //返回按钮点击事件
     @OnClick(R.id.img_back)
     public void close() {
-        MFGT.finish(this);
+        Route.finish(this);
     }
 
     //登录按钮点击事件
     @OnClick(R.id.btn_login)
     public void login() {
-        String userName=et_usertel.getText().toString().trim();
-        String userPwd=et_password.getText().toString().trim();
+        String userName = et_usertel.getText().toString().trim();
+        String userPwd = et_password.getText().toString().trim();
         checkForm(userName, userPwd);
     }
 
@@ -91,7 +91,7 @@ public class LoginActivity extends BaseActivity {
         public void onSuccess(String data) {
             L.e(data);
 //            CommonUtils.showLongToast(data);
-            MFGT.gotoMainActivity(LoginActivity.this);
+            Route.gotoMainActivity(LoginActivity.this);
             finish();
         }
 
@@ -105,13 +105,13 @@ public class LoginActivity extends BaseActivity {
     //注册按钮点击事件
     @OnClick(R.id.btn_register)
     public void regiseter() {
-        MFGT.gotoRegister(this);
+        Route.gotoRegister(this);
     }
 
     //遇到问题按钮点击事件
     @OnClick(R.id.tv_wenti)
-    public void querstion() {
-        MFGT.gotoWebView(this, getString(R.string.discover_txt_shop), "http://www.baidu.com/");
+    public void question() {
+        Route.gotoWebView(this, getString(R.string.discover_txt_shop), "http://www.baidu.com/");
     }
 
 

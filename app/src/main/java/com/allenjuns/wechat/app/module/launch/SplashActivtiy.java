@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.app.base.BaseActivity;
 import com.allenjuns.wechat.chatuidemo.ChatHelper;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.easemob.redpacketsdk.RPCallback;
 import com.easemob.redpacketsdk.RedPacket;
 import com.hyphenate.chat.EMClient;
@@ -54,7 +54,7 @@ public class SplashActivtiy extends BaseActivity {
                             e.printStackTrace();
                         }
                     }
-                    MFGT.gotoMainActivity(SplashActivtiy.this);
+                    Route.gotoMainActivity(SplashActivtiy.this);
                     finish();
                 }else {
                     try {

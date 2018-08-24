@@ -25,7 +25,7 @@ import com.allenjuns.wechat.chatuidemo.Constant;
 import com.allenjuns.wechat.chatuidemo.domain.EmojiconExampleGroupData;
 import com.allenjuns.wechat.chatuidemo.domain.RobotUser;
 import com.allenjuns.wechat.chatuidemo.widget.ChatRowVoiceCall;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.easemob.redpacketui.RedPacketConstant;
 import com.easemob.redpacketui.utils.RedPacketUtil;
 import com.easemob.redpacketui.widget.ChatRowRedPacket;
@@ -114,7 +114,7 @@ public class ChatFragment extends EaseChatFragment implements EaseChatFragmentHe
         titleBar.setRightLayoutClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                MFGT.gotoFriendsMsgActivity(getActivity(), toChatUsername);
+                Route.gotoFriendsMsgActivity(getActivity(), toChatUsername);
             }
         });
         ((EaseEmojiconMenu) inputMenu.getEmojiconMenu()).addEmojiconGroup(EmojiconExampleGroupData.getData());
@@ -274,7 +274,7 @@ public class ChatFragment extends EaseChatFragment implements EaseChatFragmentHe
     @Override
     public void onAvatarClick(String username) {
         //handling when user click avatar
-        MFGT.gotoFriendsMsgActivity(getActivity(), username);
+        Route.gotoFriendsMsgActivity(getActivity(), username);
     }
 
     @Override

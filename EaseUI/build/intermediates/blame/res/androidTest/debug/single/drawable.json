@@ -12,24 +12,24 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable/ease_common_tab_bg.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable/ease_recording_hint_bg.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable/ease_recording_hint_bg.xml"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable/ease_recording_text_hint_bg.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable/ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable/ease_recording_hint_bg.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable/ease_recording_hint_bg.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable/ease_btn_blue_selector.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable/ease_btn_blue_selector.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable/ease_mm_listitem.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable/ease_mm_listitem.xml"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable/ease_mm_listitem_grey.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable/ease_mm_listitem_grey.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable/ease_mm_listitem.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable/ease_mm_listitem.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable/ease_chat_image_selector.xml",

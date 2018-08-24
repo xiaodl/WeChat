@@ -5,11 +5,9 @@ import android.os.Bundle;
 import com.allenjuns.wechat.common.EventTag;
 import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.app.base.BaseActivity;
-import com.allenjuns.wechat.app.module.main.MainActivity;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.event.EventListener;
 import com.allenjuns.wechat.event.EventManager;
-import com.allenjuns.wechat.utils.CommonUtils;
 
 import butterknife.OnClick;
 
@@ -46,14 +44,14 @@ public class GuideActivity extends BaseActivity {
 
     //返回按钮点击事件
     @OnClick(R.id.img_login)
-    public void img_login_OnClick() {
-        MFGT.gotoLogin(this);
+    public void loginOnClick() {
+        Route.gotoLogin(this);
     }
 
     //返回按钮点击事件
     @OnClick(R.id.img_register)
-    public void img_register_OnClick() {
-        MFGT.gotoRegister(this);
+    public void registerOnClick() {
+        Route.gotoRegister(this);
     }
 
     EventListener listener = new EventListener() {
@@ -62,6 +60,8 @@ public class GuideActivity extends BaseActivity {
             switch (what) {
                 case EventTag.ACCOUNT_LOGIN:
                     finish();
+                    break;
+                default:
                     break;
             }
         }

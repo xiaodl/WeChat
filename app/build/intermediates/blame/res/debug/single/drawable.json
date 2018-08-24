@@ -28,12 +28,12 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_copy_material.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_menu_copy_material.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
@@ -48,12 +48,12 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable/ease_search_clear.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable/ease_btn_blue_selector.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable/ease_btn_blue_selector.xml"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_paste_material.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ic_menu_paste_material.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable/ease_btn_blue_selector.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable/ease_btn_blue_selector.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable/btn_enable_green.xml",

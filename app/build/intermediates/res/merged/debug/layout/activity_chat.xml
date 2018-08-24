@@ -54,10 +54,10 @@
             <Button
                 android:id="@+id/btn_smail"
                 android:layout_width="55dp"
-                android:textColor="@color/white"
-                android:background="@drawable/fab_background"
                 android:layout_height="55dp"
-                android:text="表情" />
+                android:background="@drawable/fab_background"
+                android:text="表情"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btn_tools"

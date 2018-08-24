@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ease_chat_press_speak_btn_pressed.9.png",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/res/drawable-xhdpi/ease_chat_press_speak_btn_pressed.9.png"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ease_app_panel_video_icon.9.png",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/res/drawable-xhdpi/ease_app_panel_video_icon.9.png"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ease_chat_press_speak_btn_pressed.9.png",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/res/drawable-xhdpi/ease_chat_press_speak_btn_pressed.9.png"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ease_chat_send_btn_normal.9.png",

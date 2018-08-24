@@ -13,7 +13,7 @@ import android.widget.TextView;
 import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.app.base.BaseActivity;
 import com.allenjuns.wechat.common.Constants;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.widget.EmptyLayout;
 
 import butterknife.Bind;
@@ -82,7 +82,7 @@ public class WebViewActivity extends BaseActivity {
                 mWebView.goBack();
                 return true;
             } else {
-                MFGT.finish(this);
+                Route.finish(this);
             }
         }
         return super.onKeyDown(keyCode, event);
@@ -91,7 +91,7 @@ public class WebViewActivity extends BaseActivity {
     //返回按钮点击事件
     @OnClick(R.id.img_back)
     public void close() {
-        MFGT.finish(this);
+        Route.finish(this);
     }
 
     private class WeiboWebViewClient extends WebViewClient {

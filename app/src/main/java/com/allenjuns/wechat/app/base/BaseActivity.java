@@ -2,7 +2,7 @@ package com.allenjuns.wechat.app.base;
 
 import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.common.ExitAppUtils;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.utils.StatusBarCompat;
 
 import me.imid.swipebacklayout.lib.app.SwipeBackActivity;
@@ -28,7 +28,7 @@ public abstract class BaseActivity extends SwipeBackActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        MFGT.finish(this);
+        Route.finish(this);
     }
 
     protected abstract void findView();

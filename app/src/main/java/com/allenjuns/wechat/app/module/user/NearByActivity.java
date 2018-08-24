@@ -11,7 +11,7 @@ import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.app.base.BaseActivity;
 import com.allenjuns.wechat.app.module.user.adpter.NearByAdpter;
 import com.allenjuns.wechat.bean.UserInfo;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.widget.flingswipe.SwipeFlingAdapterView;
 
 import java.util.ArrayList;
@@ -96,7 +96,7 @@ public class NearByActivity extends BaseActivity implements SwipeFlingAdapterVie
     //返回按钮点击事件
     @OnClick(R.id.img_back)
     public void close() {
-        MFGT.finish(this);
+        Route.finish(this);
     }
 
     @Override

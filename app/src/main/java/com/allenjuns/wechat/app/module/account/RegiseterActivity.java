@@ -14,7 +14,7 @@ import com.allenjuns.wechat.app.base.BaseActivity;
 import com.allenjuns.wechat.app.model.account.LoginCallback;
 import com.allenjuns.wechat.app.model.account.LoginModelImpl;
 import com.allenjuns.wechat.chatuidemo.ChatHelper;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.utils.L;
 import com.hyphenate.EMError;
 import com.hyphenate.chat.EMClient;
@@ -82,7 +82,7 @@ public class RegiseterActivity extends BaseActivity {
     //返回按钮点击事件
     @OnClick(R.id.img_back)
     public void close() {
-        MFGT.finish(this);
+        Route.finish(this);
     }
 
     public void register() {
@@ -155,7 +155,7 @@ public class RegiseterActivity extends BaseActivity {
                         EMClient.getInstance().contactManager().addContact("1245238818", "");
                     } catch (final HyphenateException e) {
                     }
-                    MFGT.gotoMainActivity(RegiseterActivity.this);
+                    Route.gotoMainActivity(RegiseterActivity.this);
                     finish();
                 }
             }).start();

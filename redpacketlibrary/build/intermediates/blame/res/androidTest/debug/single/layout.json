@@ -64,12 +64,12 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/layout/ease_expression_gridview.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/layout/rp_choose_pay_dialog.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/layout/rp_choose_pay_dialog.xml"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/layout/rp_bank_city_list_dialog.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/layout/rp_bank_city_list_dialog.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/layout/rp_choose_pay_dialog.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/layout/rp_choose_pay_dialog.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/layout/ease_conversation_item.xml",

@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.app.base.BaseActivity;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.widget.ScrollGridView;
 import com.easemob.redpacketui.utils.RedPacketUtil;
 
@@ -71,7 +71,7 @@ public class WalletActivity extends BaseActivity {
     //返回按钮点击事件
     @OnClick(R.id.img_back)
     public void close() {
-        MFGT.finish(this);
+        Route.finish(this);
     }
     //返回按钮点击事件
     @OnClick(R.id.layout_money)
@@ -110,10 +110,8 @@ public class WalletActivity extends BaseActivity {
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             convertView = inflater.inflate(R.layout.layout_item_wallet, null, false);
-            ImageView iv_image = (ImageView) convertView
-                    .findViewById(R.id.iv_image);
-            TextView tv_name = (TextView) convertView
-                    .findViewById(R.id.tv_name);
+            ImageView iv_image = (ImageView) convertView.findViewById(R.id.iv_image);
+            TextView tv_name = (TextView) convertView.findViewById(R.id.tv_name);
             String name = nameDatas[position];
             int imageRes = imageDatas[position];
             iv_image.setImageResource(imageRes);

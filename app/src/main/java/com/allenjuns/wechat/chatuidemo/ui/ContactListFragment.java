@@ -27,13 +27,12 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Toast;
 
 import com.allenjuns.wechat.R;
-import com.allenjuns.wechat.app.module.user.NearByActivity;
 import com.allenjuns.wechat.chatuidemo.ChatHelper;
 import com.allenjuns.wechat.chatuidemo.ChatHelper.DataSyncListener;
 import com.allenjuns.wechat.chatuidemo.db.InviteMessgeDao;
 import com.allenjuns.wechat.chatuidemo.db.UserDao;
 import com.allenjuns.wechat.chatuidemo.widget.ContactItemView;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.widget.EmptyLayout;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.easeui.EaseConstant;
@@ -171,21 +170,21 @@ public class ContactListFragment extends EaseContactListFragment {
                 case R.id.txt_search:
                     // 进入申请与通知页面
 //                startActivity(new Intent(getActivity(), NewFriendsMsgActivity.class));
-                    MFGT.gotoCommon(getActivity(), getString(R.string.search));
+                    Route.gotoCommon(getActivity(), getString(R.string.search));
                     break;
                 case R.id.application_item:
                     // 进入申请与通知页面
 //                startActivity(new Intent(getActivity(), NewFriendsMsgActivity.class));
-                    MFGT.gotoCommon(getActivity(), getString(R.string.recommended_friends));
+                    Route.gotoCommon(getActivity(), getString(R.string.recommended_friends));
                     break;
                 case R.id.group_item:
                     // 进入群聊列表页面
 //                startActivity(new Intent(getActivity(), GroupsActivity.class));
-                    MFGT.gotoCommon(getActivity(), getString(R.string.group_chats));
+                    Route.gotoCommon(getActivity(), getString(R.string.group_chats));
                     break;
                 case R.id.chat_room_item:
 //                startActivity(new Intent(getActivity(), GroupsActivity.class));
-                    MFGT.gotoCommon(getActivity(), getString(R.string.official_accounts));
+                    Route.gotoCommon(getActivity(), getString(R.string.official_accounts));
                     break;
 
                 default:

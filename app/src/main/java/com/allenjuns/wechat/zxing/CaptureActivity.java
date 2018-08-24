@@ -24,7 +24,7 @@ import android.widget.TextView;
 
 import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.app.base.BaseActivity;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.utils.CommonUtils;
 import com.allenjuns.wechat.zxing.camera.CameraManager;
 import com.allenjuns.wechat.zxing.decoding.CaptureActivityHandler;
@@ -74,7 +74,7 @@ public class CaptureActivity extends BaseActivity implements Callback {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-                MFGT.finish(CaptureActivity.this);
+                Route.finish(CaptureActivity.this);
         }
         return super.onKeyDown(keyCode, event);
     }
@@ -87,7 +87,7 @@ public class CaptureActivity extends BaseActivity implements Callback {
         mGoHome.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                MFGT.finish(CaptureActivity.this);
+                Route.finish(CaptureActivity.this);
             }
         });
     }

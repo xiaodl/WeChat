@@ -15,7 +15,7 @@ import com.allenjuns.wechat.chatuidemo.db.InviteMessgeDao;
 import com.allenjuns.wechat.chatuidemo.ui.ContactListFragment;
 import com.allenjuns.wechat.chatuidemo.ui.ConversationListFragment;
 import com.allenjuns.wechat.common.EventTag;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.dialog.TitleMenu.ActionItem;
 import com.allenjuns.wechat.dialog.TitleMenu.TitlePopup;
 import com.allenjuns.wechat.event.EventListener;
@@ -74,7 +74,9 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
                     }, 3000);
                     break;
                 case 1:
-                    MFGT.finishFormBottom(this);
+                    Route.finishFormBottom(this);
+                    break;
+                default:
                     break;
             }
             return true;
@@ -103,19 +105,18 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         public void onItemClick(ActionItem item, int position) {
             switch (position) {
                 case 0:// 发起群聊
-                    MFGT.gotoCommon(MainActivity.this, getString(R.string.menu_groupchat));
+                    Route.gotoCommon(MainActivity.this, getString(R.string.menu_groupchat));
                     break;
                 case 1:// 添加朋友
-//                    MFGT.gotoCommon(MainActivity.this, getString(R.string.menu_addfriend));
-                    MFGT.startActivity(MainActivity.this, NearByActivity.class);
+                    Route.startActivity(MainActivity.this, NearByActivity.class);
                     //TODO
                     break;
                 case 2:// 扫一扫
                     //TODO
-                    MFGT.gotoZXCode(MainActivity.this);
+                    Route.gotoZXCode(MainActivity.this);
                     break;
                 case 3:// 收钱
-                    MFGT.gotoWalletActivity(MainActivity.this);
+                    Route.gotoWalletActivity(MainActivity.this);
                     //TODO
                     break;
                 default:
@@ -130,7 +131,6 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         adapter = new MainTabAdpter(getSupportFragmentManager());
         viewpager.setAdapter(adapter);
         adapter.clear();
-//        viewpager.setScrollble(false);
         viewpager.setOffscreenPageLimit(4);
         adapter.addFragment(new ConversationListFragment(), getString(R.string.app_name));
         adapter.addFragment(new ContactListFragment(), getString(R.string.contacts));
@@ -194,7 +194,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
             titlePopup.show(findViewById(R.id.layout_title));
         } else {
             //TODO
-            MFGT.gotoCommon(MainActivity.this, getString(R.string.menu_addfriend));
+            Route.gotoCommon(MainActivity.this, getString(R.string.menu_addfriend));
         }
     }
 
@@ -220,6 +220,8 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
                 img_right.setVisibility(View.GONE);
                 txt_title.setText(getString(R.string.me));
                 break;
+            default:
+                break;
         }
     }
 
@@ -242,7 +244,9 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
                     break;
                 case EventTag.ACCOUNT_RELOGOUT:
                     CommonUtils.showLongToast((String) dataobj);
-                    MFGT.gotoGuide(MainActivity. this);
+                    Route.gotoGuide(MainActivity.this);
+                    break;
+                default:
                     break;
             }
         }

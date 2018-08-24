@@ -8,8 +8,8 @@ import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.app.base.BaseEaseChatActivity;
 import com.allenjuns.wechat.app.module.main.MainActivity;
 import com.allenjuns.wechat.chatuidemo.runtimepermissions.PermissionsManager;
+import com.allenjuns.wechat.common.Route;
 import com.hyphenate.easeui.ui.EaseChatFragment;
-import com.allenjuns.wechat.common.MFGT;
 import com.hyphenate.util.EasyUtils;
 
 /**
@@ -62,7 +62,7 @@ public class ChatActivity extends BaseEaseChatActivity {
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }
-        MFGT.finish(this);
+        Route.finish(this);
     }
     
     public String getToChatUsername(){

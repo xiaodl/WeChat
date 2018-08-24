@@ -20,6 +20,7 @@
         android:layout_marginBottom="20dp"
         android:layout_marginTop="15dp"
         android:textColor="#666666"
+        android:text="京东精选"
         android:textSize="14sp" />
 
 </LinearLayout>

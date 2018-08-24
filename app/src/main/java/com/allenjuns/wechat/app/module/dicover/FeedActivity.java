@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.app.base.BaseActivity;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 import com.allenjuns.wechat.widget.RefreshLayout;
 
 import butterknife.Bind;
@@ -50,8 +50,7 @@ public class FeedActivity extends BaseActivity implements SwipeRefreshLayout.OnR
         img_back.setVisibility(View.VISIBLE);
         txt_title.setText(getString(R.string.discover_txt_pengyouquan));
         mRefreshLayout.setChildView(this, mlistview);
-        View layout_head = getLayoutInflater().inflate(R.layout.layout_album_header,
-                null);
+        View layout_head = getLayoutInflater().inflate(R.layout.layout_album_header, null);
         mlistview.addHeaderView(layout_head);
         mlistview.setAdapter(new FeedAdpter(this));
         mlistview.setOnItemClickListener(this);
@@ -78,18 +77,20 @@ public class FeedActivity extends BaseActivity implements SwipeRefreshLayout.OnR
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        MFGT.gotoCommentActivity(this);
+        Route.gotoCommentActivity(this);
     }
 
     //返回按钮点击事件
     @OnClick(R.id.img_back)
     public void close() {
-        MFGT.finish(this);
+        Route.finish(this);
     }
+
     @OnClick(R.id.txt_title)
     public void goTop() {
         mlistview.setSelection(0);
     }
+
     //  发布添加点击事件
     @OnClick(R.id.btn_add)
     public void btn_add_OnClick() {

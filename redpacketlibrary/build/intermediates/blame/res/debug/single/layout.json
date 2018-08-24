@@ -1,19 +1,19 @@
 [
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/rp_fragment_group_chat_packet.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/res/layout/rp_fragment_group_chat_packet.xml"
-    },
-    {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/ease_row_received_bigexpression.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/layout/ease_row_received_bigexpression.xml"
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/ease_alert_dialog.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/layout/ease_alert_dialog.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/rp_details_list_header.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/res/layout/rp_details_list_header.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/ease_alert_dialog.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/layout/ease_alert_dialog.xml"
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/ease_row_received_bigexpression.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/layout/ease_row_received_bigexpression.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/rp_fragment_group_chat_packet.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/res/layout/rp_fragment_group_chat_packet.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/rp_choose_record_popup_layout.xml",
@@ -104,12 +104,12 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/layout/ease_row_received_video.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/ease_row_sent_voice_call.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/layout/ease_row_sent_voice_call.xml"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/ease_row_sent_picture.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/layout/ease_row_sent_picture.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/ease_row_sent_voice_call.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/layout/ease_row_sent_voice_call.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/debug/layout/rp_popup_layout.xml",

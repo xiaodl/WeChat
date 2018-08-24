@@ -4,12 +4,12 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rp_random_icon.png"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rp_load_dark_10.png",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rp_load_dark_10.png"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rp_jd_icon.png",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rp_jd_icon.png"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rp_load_dark_10.png",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rp_load_dark_10.png"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rp_avatar.png",

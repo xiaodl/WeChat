@@ -12,12 +12,12 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_row_received_message.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_row_sent_file.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_row_sent_file.xml"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_widget_chat_primary_menu.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_widget_chat_primary_menu.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_row_sent_file.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_row_sent_file.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_chat_message_list.xml",
@@ -28,12 +28,12 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_widget_emojicon.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_search_bar_with_padding.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_search_bar_with_padding.xml"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_widget_switch_button.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_widget_switch_button.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_search_bar_with_padding.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_search_bar_with_padding.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_row_sent_voice_call.xml",
@@ -44,12 +44,12 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_row_sent_picture.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_activity_baidumap.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_activity_baidumap.xml"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_row_received_location.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_row_received_location.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_activity_baidumap.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/bundles/debug/res/layout/ease_activity_baidumap.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/layout/ease_row_received_video_call.xml",

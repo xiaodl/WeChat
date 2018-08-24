@@ -40,12 +40,12 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_top_in.xml"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_top_out.xml",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_top_out.xml"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_bottom_in.xml",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_top_out.xml",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_top_out.xml"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/hold.xml",

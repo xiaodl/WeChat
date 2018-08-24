@@ -44,12 +44,12 @@
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/drawable-hdpi/icon_menu_money.png"
     },
     {
-        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_more.png",
-        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/drawable-hdpi/icon_more.png"
-    },
-    {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable-hdpi/find_normal.png",
         "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/drawable-hdpi/find_normal.png"
+    },
+    {
+        "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_more.png",
+        "source": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/src/main/res/drawable-hdpi/icon_more.png"
     },
     {
         "merged": "/Users/xiaodengliang/Documents/AndroidStudy/WeChat/app/build/intermediates/res/merged/debug/drawable-hdpi/server_error.png",

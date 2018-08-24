@@ -8,7 +8,7 @@ import android.widget.TextView;
 import com.allenjuns.wechat.R;
 import com.allenjuns.wechat.app.base.BaseActivity;
 import com.allenjuns.wechat.common.CommentAnimUtils;
-import com.allenjuns.wechat.common.MFGT;
+import com.allenjuns.wechat.common.Route;
 
 import butterknife.Bind;
 import butterknife.OnClick;
@@ -37,7 +37,7 @@ public class CommentActivity extends BaseActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        MFGT.finishFormBottom(this);
+        Route.finishFormBottom(this);
     }
     @Override
     protected void findView() {
@@ -64,7 +64,7 @@ public class CommentActivity extends BaseActivity {
     //返回按钮点击事件
     @OnClick(R.id.img_back)
     public void close() {
-        MFGT.finishFormBottom(this);
+        Route.finishFormBottom(this);
     }
 
     @OnClick(R.id.btn_anim3_show)
